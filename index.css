@@ -9,7 +9,7 @@
   --font-color: #383d3d;
 
   --main-font: "Noto Serif", serif;
-  --secondary-font: 'Niconne', cursive;
+  --secondary-font: "Niconne", cursive;
 }
 
 /* Clearfix */
@@ -66,8 +66,8 @@
 
 .mainHeader__mainMenuElement {
   background: var(--quaternary-color);
-  -webkit-animation: fadeInRight cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  animation: fadeInRight cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: fadeInRight cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fadeInRight cubic-bezier(0.39, 0.575, 0.565, 1) both;
   font-size: 16px;
   line-height: 40px;
   padding: 0 20px;
@@ -105,7 +105,6 @@
 
 .mainHeader__mainMenuElement:nth-of-type(5) {
   animation-duration: 1.1s;
-  
 }
 
 /* Animations */
@@ -116,6 +115,7 @@
     transform: translateX(50px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -129,6 +129,7 @@
     transform: translateX(50px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
