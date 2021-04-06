@@ -65,19 +65,54 @@
         <h2 class="mobileHeadings__text">Przeglądaj <span class="mobileHeadings__lighter">kategorie</span></h2>
       </div>
     </section>
-    <figure class="mainMobileSlider__container">
-      <img 
-      class="mainMobileSlider__photo"
-      src="https://via.placeholder.com/345"
-      alt="Slider photo #1"
-      >
-      <div class="mainMobileSlider__text">
-        <a href="" class="mainMobileSlider__textOne">Kokardki</a>
-      </div>
-      <div class="mainMobileSlider__arrow">
-        <a href="" class="mainMobileSlider__textArrow">></a>
-      </div>
-    </figure>
+    <section class="mainMobileSlider">
+      <figure class="mainMobileSlider__container mainMobileSlider__container--active">
+        <img 
+        class="mainMobileSlider__photo"
+        src="https://via.placeholder.com/345"
+        alt="Slider photo #1"
+        >
+        <div class="mainMobileSlider__text">
+          <a href="" class="mainMobileSlider__textOne">Kokardki</a>
+        </div>
+      </figure>
+      <figure class="mainMobileSlider__container">
+        <img 
+        class="mainMobileSlider__photo"
+        src="https://via.placeholder.com/345"
+        alt="Slider photo #2"
+        >
+        <div class="mainMobileSlider__text">
+          <a href="" class="mainMobileSlider__textOne">Smycze</a>
+        </div>
+      </figure>
+      <figure class="mainMobileSlider__container">
+        <img 
+        class="mainMobileSlider__photo"
+        src="https://via.placeholder.com/345"
+        alt="Slider photo #3"
+        >
+        <div class="mainMobileSlider__text">
+          <a href="" class="mainMobileSlider__textOne">Obroże</a>
+        </div>
+      </figure>
+      <figure class="mainMobileSlider__container">
+        <img 
+        class="mainMobileSlider__photo"
+        src="https://via.placeholder.com/345"
+        alt="Slider photo #4"
+        >
+        <div class="mainMobileSlider__text">
+          <a href="" class="mainMobileSlider__textOne">Ubranka</a>
+        </div>
+      </figure>
+      <button class="mainMobileSlider__arrow mainMobileSlider__arrow--left" onclick="changeSlide('previous')">
+        <
+      </button>
+      <button class="mainMobileSlider__arrow mainMobileSlider__arrow--right" onclick="changeSlide('next')">
+        >
+      </button>
+    </section>
     <section class="mainNewsletterMobile">
       <h1 class="mainNewsletterMobile__top">
         <span class="mainNewsletterMobile__topBolder"> Bądź </span> na bieżąco!
@@ -144,4 +179,5 @@
       </div>
     </section>
   </body>
+  <script src="../scripts/slider.js"></script> 
 </html>
