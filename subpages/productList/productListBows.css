@@ -7,6 +7,7 @@
   --tertiary-color: #ded0f2;
   --quaternary-color: #f6f0ff;
   --font-color: #383d3d;
+  --secondary-font-color: #808080;
 
   --main-font: "Noto Serif", serif;
   --secondary-font: "Niconne", cursive;
@@ -112,7 +113,7 @@ body {
   animation-duration: 1.1s;
 }
 
-/* Main logo */
+/* Subpage logo */
 
 .mainLogo,
 .mainPremiumList {
@@ -139,7 +140,36 @@ body {
   max-height: 300px;
 }
 
-/* Main mobile footer */
+/* Subpage ProductListBows mobile product*/
+
+.subpageMobileBows__product {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.subpageMobileBows__productTitle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+
+.subpageMobileBows__productText {
+  font-family: var(--main-font);
+  color: var(--secondary-font-color);
+  font-size: 20px;
+  padding: 20px 0 10px 0;
+}
+
+.subpageMobileBows__productPrice {
+  font-family: var(--main-font);
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+/* Subpage ProductListBows mobile footer */
 
 .mainMobile__footer {
   background: rgb(0, 0, 0);
