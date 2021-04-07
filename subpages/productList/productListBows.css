@@ -140,6 +140,36 @@ body {
   max-height: 300px;
 }
 
+/*Subpage ProductListBows mobile breadcrumbs*/
+
+.subpageMobileBows__breadcrumbs {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+}
+
+.subpageMobileBows__breadcrumbsProduct {
+}
+
+.subpageMobileBows__breadcrumbsProductList {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.subpageMobileBows__breadcrumbsProductListItem {
+}
+
+.subpageMobileBows__breadcrumbsProductListItem::before {
+  content: "|";
+  padding: 1px;
+  color: var(--primary-color);
+}
+
+.subpageMobileBows__breadcrumbsProductList:last-child {
+  font-weight: bolder;
+}
+
 /* Subpage ProductListBows mobile product*/
 
 .subpageMobileBows__product {
