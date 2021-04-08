@@ -8,6 +8,7 @@
   --quaternary-color: #f6f0ff;
   --font-color: #383d3d;
   --secondary-font-color: #808080;
+  --footer-background-color: #000;
 
   --main-font: "Noto Serif", serif;
   --secondary-font: "Niconne", cursive;
@@ -161,6 +162,7 @@ body {
 }
 
 .subpageMobileBows__breadcrumbsProductListItem {
+  display: inline;
 }
 
 .subpageMobileBows__breadcrumbsProductListItem::before {
@@ -184,7 +186,7 @@ body {
 .mainMobileSlider__container {
   display: none;
   justify-content: center;
-  margin: 20px 20px 0 20px;
+  margin: 20px 20px 0;
   overflow: hidden;
   position: relative;
   min-width: calc(100% - 40px);
@@ -229,20 +231,17 @@ body {
 
 /* Subpage ProductCard mobile product*/
 
-.subpageMobileProductCard__product {
-}
-
 .subpageMobileProductCard__productTitle {
   display: flex;
   flex-direction: column;
-  padding: 0 20px 20px 20px;
+  padding: 0 20px 20px;
 }
 
 .subpageMobileProductCard__productText {
   font-family: var(--main-font);
   color: var(--secondary-font-color);
   font-size: 20px;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 10px;
 }
 
 .subpageMobileProductCard__productPrice {
@@ -262,7 +261,7 @@ body {
 
 .subpageMobileProductCard__categoryShortDesc {
   font-family: var(--main-font);
-  padding: 20px 20px;
+  padding: 20px;
 }
 
 .subpageMobileProductCard__categoryShortDescText {
@@ -273,7 +272,7 @@ body {
 /* Subpage ProductCard mobile headings*/
 
 .subpageMobileProductCard__headings {
-  padding: 20px 20px;
+  padding: 20px;
   display: flex;
   justify-content: center;
 }
@@ -332,7 +331,7 @@ body {
 /* Subpage ProductCard mobile products recommended*/
 
 .subpageMobileProductCard__productsRecommended {
-  padding: 20px 20px;
+  padding: 20px;
   display: flex;
   justify-content: center;
 }
@@ -342,14 +341,14 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 0 0 20px 0;
+  padding: 0 0 20px;
 }
 
 .subpageMobileProductCard__productText {
   font-family: var(--main-font);
   color: var(--secondary-font-color);
   font-size: 20px;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 10px;
 }
 
 .subpageMobileProductCard__productPrice {
@@ -361,27 +360,27 @@ body {
 /* Main mobile footer */
 
 .mainMobile__footer {
-  background: rgb(0, 0, 0);
+  background: var(--footer-background-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 20px;
+  padding: 20px;
   margin: 20px;
 }
 
 .mainMobileFooter__logo {
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
 }
 
 .mainMobileFooter__contactFacebook,
 .mainMobileFooter__contactInstagram {
-  color: grey;
+  color: var(--secondary-font-color);
   text-decoration: none;
 }
 
 .mainMobileFooter__copyrights {
-  color: grey;
+  color: var(--secondary-font-color);
   padding: 20px 10px;
   display: flex;
   flex-direction: row;
