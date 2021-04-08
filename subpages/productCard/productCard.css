@@ -169,6 +169,60 @@ body {
   font-weight: bolder;
 }
 
+/* Main mobile slider */
+
+.mainMobileSlider {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.mainMobileSlider__container {
+  display: none;
+  justify-content: center;
+  margin: 20px 20px 0 20px;
+  overflow: hidden;
+  position: relative;
+  min-width: calc(100% - 40px);
+}
+
+.mainMobileSlider__container--active {
+  display: flex;
+}
+
+.mainMobileSlider__photo {
+  width: 100%;
+}
+
+.mainMobileSlider__arrow {
+  width: 15%;
+  background-color: var(--quaternary-color);
+  height: 40%;
+  position: absolute;
+  opacity: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 30%;
+  border: none;
+}
+
+.mainMobileSlider__arrow--left {
+  left: 20px;
+}
+
+.mainMobileSlider__arrow--right {
+  right: 20px;
+}
+
+.mainMobileSlider__arrow:hover {
+  color: var(--quaternary-color);
+}
+
+.mainMobileSlider__arrow:hover {
+  background-color: var(--primary-color);
+}
+
 /* Main mobile footer */
 
 .mainMobile__footer {
