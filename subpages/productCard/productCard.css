@@ -150,6 +150,8 @@ body {
 }
 
 .subpageMobileBows__breadcrumbsProduct {
+  width: 100%;
+  padding: 10px 0;
 }
 
 .subpageMobileBows__breadcrumbsProductList {
