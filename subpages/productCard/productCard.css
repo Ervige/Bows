@@ -302,6 +302,30 @@ body {
   padding: 10px;
 }
 
+/* Subpage Mobile Product Card product recommended headings */
+
+.subpageMobileProductCard__RecommendedHeadingsContainer {
+  width: 100%;
+}
+
+.subpageMobileProductCard__RecommendedHeadingsTitle {
+  border-bottom: 1px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 10px 20px;
+  width: 40%;
+  font-size: 16px;
+}
+
+.subpageMobileProductCard__RecommendedHeadingsText {
+  width: 40%;
+}
+
+.subpageMobileProductCard__RecommendedHeadingsLighter {
+  font-weight: lighter;
+}
+
 /* Subpage ProductCard mobile products recommended*/
 
 .subpageMobileProductCard__productsRecommended {
