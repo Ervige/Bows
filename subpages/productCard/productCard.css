@@ -139,17 +139,6 @@ body {
   max-height: 300px;
 }
 
-/* Premium list */
-
-.mainPremiumList {
-  display: flex;
-  flex-direction: column;
-}
-
-.mainPremiumList__promotion {
-  cursor: pointer;
-}
-
 /* Main mobile footer */
 
 .mainMobile__footer {
