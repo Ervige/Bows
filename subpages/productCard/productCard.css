@@ -39,6 +39,7 @@ body {
   padding-left: 20px;
   font-family: var(--main-font);
   position: fixed;
+  z-index: 100;
 }
 
 .mainHeader__logoText {

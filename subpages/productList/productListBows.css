@@ -8,6 +8,7 @@
   --quaternary-color: #f6f0ff;
   --font-color: #383d3d;
   --secondary-font-color: #808080;
+  --footer-background-color: #000;
 
   --main-font: "Noto Serif", serif;
   --secondary-font: "Niconne", cursive;
@@ -39,6 +40,7 @@ body {
   padding-left: 20px;
   font-family: var(--main-font);
   position: fixed;
+  z-index: 100;
 }
 
 .mainHeader__logoText {
@@ -149,15 +151,13 @@ body {
   margin: 20px;
 }
 
-.subpageMobileBows__breadcrumbsProduct {
-}
-
 .subpageMobileBows__breadcrumbsProductList {
   text-decoration: none;
   color: var(--primary-color);
 }
 
 .subpageMobileBows__breadcrumbsProductListItem {
+  display: inline;
 }
 
 .subpageMobileBows__breadcrumbsProductListItem::before {
@@ -173,7 +173,7 @@ body {
 /* Subpage ProductListBows mobile product*/
 
 .subpageMobileBows__product {
-  padding: 20px 20px;
+  padding: 20px;
   display: flex;
   justify-content: center;
 }
@@ -190,7 +190,7 @@ body {
   font-family: var(--main-font);
   color: var(--secondary-font-color);
   font-size: 20px;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 10px;
 }
 
 .subpageMobileBows__productPrice {
@@ -202,27 +202,27 @@ body {
 /* Subpage ProductListBows mobile footer */
 
 .mainMobile__footer {
-  background: rgb(0, 0, 0);
+  background: var(--footer-background-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 20px;
+  padding: 20px;
   margin: 20px;
 }
 
 .mainMobileFooter__logo {
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
 }
 
 .mainMobileFooter__contactFacebook,
 .mainMobileFooter__contactInstagram {
-  color: grey;
+  color: var(--secondary-font-color);
   text-decoration: none;
 }
 
 .mainMobileFooter__copyrights {
-  color: grey;
+  color: var(--secondary-font-color);
   padding: 20px 10px;
   display: flex;
   flex-direction: row;
