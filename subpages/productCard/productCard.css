@@ -7,6 +7,7 @@
   --tertiary-color: #ded0f2;
   --quaternary-color: #f6f0ff;
   --font-color: #383d3d;
+  --secondary-font-color: #808080;
 
   --main-font: "Noto Serif", serif;
   --secondary-font: "Niconne", cursive;
@@ -264,6 +265,27 @@ body {
 .subpageMobileProductCard__categoryShortDescText {
   font-size: 14px;
   padding: 5px;
+}
+
+/* Subpage ProductCard mobile headings*/
+
+.subpageMobileProductCard__headings {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.subpageMobileProductCard__headingsContainer {
+  border-bottom: 0.1px solid var(--secondary-font-color);
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.subpageMobileProductCard__headingsName {
+  font-family: var(--main-font);
+  color: var(--primary-color);
 }
 
 /* Main mobile footer */
