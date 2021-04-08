@@ -302,6 +302,35 @@ body {
   padding: 10px;
 }
 
+/* Subpage ProductCard mobile products recommended*/
+
+.subpageMobileProductCard__productsRecommended {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.subpageMobileProductCard__productTitle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+
+.subpageMobileProductCard__productText {
+  font-family: var(--main-font);
+  color: var(--secondary-font-color);
+  font-size: 20px;
+  padding: 20px 0 10px 0;
+}
+
+.subpageMobileProductCard__productPrice {
+  font-family: var(--main-font);
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
 /* Main mobile footer */
 
 .mainMobile__footer {
