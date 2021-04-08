@@ -223,6 +223,49 @@ body {
   background-color: var(--primary-color);
 }
 
+/* Subpage ProductCard mobile product*/
+
+.subpageMobileProductCard__product {
+}
+
+.subpageMobileProductCard__productTitle {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 20px 20px;
+}
+
+.subpageMobileProductCard__productText {
+  font-family: var(--main-font);
+  color: var(--secondary-font-color);
+  font-size: 20px;
+  padding: 20px 0 10px 0;
+}
+
+.subpageMobileProductCard__productPrice {
+  font-family: var(--main-font);
+  color: var(--primary-color);
+  font-size: 22px;
+}
+
+.subpageMobileProductCard__category {
+  padding: 0 20px;
+}
+
+.subpageMobileProductCard__categoryText {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.subpageMobileProductCard__categoryShortDesc {
+  font-family: var(--main-font);
+  padding: 20px 20px;
+}
+
+.subpageMobileProductCard__categoryShortDescText {
+  font-size: 14px;
+  padding: 5px;
+}
+
 /* Main mobile footer */
 
 .mainMobile__footer {
