@@ -1,31 +1,6 @@
-/* Global variables */
+/* Imports */
 
-:root {
-  --main-background: #f2f2f2;
-  --primary-color: #af91d9;
-  --secondary-color: #d3bdf2;
-  --tertiary-color: #ded0f2;
-  --quaternary-color: #f6f0ff;
-  --font-color: #383d3d;
-  --secondary-font-color: #808080;
-  --footer-background-color: #000;
-
-  --main-font: "Noto Serif", serif;
-  --secondary-font: "Niconne", cursive;
-}
-
-/* Clearfix */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--main-font);
-}
-
-body {
-  background: var(--main-background);
-}
+@import "../../index.css";
 
 /* Header */
 
