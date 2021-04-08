@@ -288,6 +288,20 @@ body {
   color: var(--primary-color);
 }
 
+/* Subpage ProductCard mobile product descrption*/
+
+.subpageMobileProductCard__productDescriptionContainer {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subpageMobileProductCard__productDescriptionText {
+  font-family: var(--main-font);
+  color: var(--font-color);
+  padding: 10px;
+}
+
 /* Main mobile footer */
 
 .mainMobile__footer {
