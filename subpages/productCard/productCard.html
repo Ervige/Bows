@@ -1,197 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Niconne&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="productCard.css" />
-    <title>Bows</title>
-  </head>
-  <body>
-    <header class="mainHeader">
-      <a href="./index.html" class="mainHeader__logoText">Bows</a>
-      <ul class="mainHeader__menu">
-        <span class="mainHeader__menuHamburgerIcon">≡</span>
-        <li class="mainHeader__menuElement">Katalog produktów</li>
-        <li class="mainHeader__menuElement">Wymiary</li>
-        <li class="mainHeader__menuElement">Galeria</li>
-        <li class="mainHeader__menuElement">O nas</li>
-        <li class="mainHeader__menuElement">Regulamin</li>
-      </ul>
-    </header>
-    <section class="mainLogo">
-      <figure class="mainLogo__container">
-        <img
-          class="mainLogo__logo"
-          src="../../images/placeholers/sliderPlaceholder.png"
-          alt="Bows main logo"
-        />
-      </figure>
-    </section>
-    <section class="subpageMobileBows__breadcrumbs">
-        <ul class="subpageMobileBows__breadcrumbsProduct">
-            <a href="../../index.html" class="subpageMobileBows__breadcrumbsProductList">strona główna</a>
-            <span class="subpageMobileBows__breadcrumbsProductListItem"></span>
-            <a href="" class="subpageMobileBows__breadcrumbsProductList">produkty</a>
-            <span class="subpageMobileBows__breadcrumbsProductListItem"></span>
-            <a href="" class="subpageMobileBows__breadcrumbsProductList">kokardki</a>
-            <span class="subpageMobileBows__breadcrumbsProductListItem"></span>
-            <a href="" class="subpageMobileBows__breadcrumbsProductList">kokardka usztywniana</a>
-        </ul>
-    </section>
-    <section class="mainMobileSlider">
-        <figure class="mainMobileSlider__container mainMobileSlider__container--active">
-          <img 
-          class="mainMobileSlider__photo"
-          src="https://via.placeholder.com/345"
-          alt="Slider photo #1"
-          >
-        </figure>
-        <figure class="mainMobileSlider__container">
-          <img 
-          class="mainMobileSlider__photo"
-          src="https://via.placeholder.com/345"
-          alt="Slider photo #2"
-          >
-        </figure>
-        <figure class="mainMobileSlider__container">
-          <img 
-          class="mainMobileSlider__photo"
-          src="https://via.placeholder.com/345"
-          alt="Slider photo #3"
-          >
-        </figure>
-        <figure class="mainMobileSlider__container">
-          <img 
-          class="mainMobileSlider__photo"
-          src="https://via.placeholder.com/345"
-          alt="Slider photo #4"
-          >
-          </div>
-        </figure>
-        <button class="mainMobileSlider__arrow mainMobileSlider__arrow--left" onclick="changeSlide('previous')">
-          <
-        </button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="productCard.css" />
+  <title>Kokardka usztywniana - Bows</title>
+</head>
+
+<body>
+  <header class="mainHeader">
+    <a href="./index.html" class="mainHeader__logoText">Bows</a>
+    <ul class="mainHeader__menu">
+      <span class="mainHeader__menuHamburgerIcon">≡</span>
+      <li class="mainHeader__menuElement">Katalog produktów</li>
+      <li class="mainHeader__menuElement">Wymiary</li>
+      <li class="mainHeader__menuElement">Galeria</li>
+      <li class="mainHeader__menuElement">O nas</li>
+      <li class="mainHeader__menuElement">Regulamin</li>
+    </ul>
+  </header>
+  <section class="mainLogo">
+    <figure class="mainLogo__container">
+      <img class="mainLogo__logo" src="../../images/placeholers/sliderPlaceholder.png" alt="Bows main logo" />
+    </figure>
+  </section>
+  <section class="subpageMobileBows__breadcrumbs">
+    <nav class="subpageMobileBows__breadcrumbsProduct">
+      <a href="../../index.html" class="subpageMobileBows__breadcrumbsProductList">strona główna</a>
+      <figure class="subpageMobileBows__breadcrumbsProductListItem" />
+      <a href="" class="subpageMobileBows__breadcrumbsProductList">produkty</a>
+      <figure class="subpageMobileBows__breadcrumbsProductListItem" />
+      <a href="" class="subpageMobileBows__breadcrumbsProductList">kokardki</a>
+      <figure class="subpageMobileBows__breadcrumbsProductListItem" />
+      <a href="" class="subpageMobileBows__breadcrumbsProductList">kokardka usztywniana</a>
+    </nav>
+  </section>
+  <section class="mainMobileSlider">
+    <figure class="mainMobileSlider__container mainMobileSlider__container--active">
+      <img class="mainMobileSlider__photo" src="https://via.placeholder.com/345" alt="Slider photo #1">
+    </figure>
+    <figure class="mainMobileSlider__container">
+      <img class="mainMobileSlider__photo" src="https://via.placeholder.com/345" alt="Slider photo #2">
+    </figure>
+    <figure class="mainMobileSlider__container">
+      <img class="mainMobileSlider__photo" src="https://via.placeholder.com/345" alt="Slider photo #3">
+    </figure>
+    <figure class="mainMobileSlider__container">
+      <img class="mainMobileSlider__photo" src="https://via.placeholder.com/345" alt="Slider photo #4">
+      </div>
+    </figure>
+    <button class="mainMobileSlider__arrow mainMobileSlider__arrow--left" onclick="changeSlide('previous')">
+      < </button>
         <button class="mainMobileSlider__arrow mainMobileSlider__arrow--right" onclick="changeSlide('next')">
           >
         </button>
-      </section>
-      <section class="subpageMobileProductCard__product">
+  </section>
+  <section class="subpageMobileProductCard__product">
+    <div class="subpageMobileProductCard__productTitle">
+      <h2 class="subpageMobileProductCard__productText">Kokardka usztywniana</h2>
+      <h3 class="subpageMobileProductCard__productPrice">30,00 zł</h3>
+    </div>
+    <div class="subpageMobileProductCard__category">
+      <a href="/Bows/subpages/productList/productListBows.css" class="subpageMobileProductCard__categoryText">Kategoria:
+        Kokardki</a>
+    </div>
+    <div class="subpageMobileProductCard__categoryShortDesc">
+      <p class="subpageMobileProductCard__categoryShortDescText">Usztywniana kokardka ozdobiona kryształkami.</p>
+      <p class="subpageMobileProductCard__categoryShortDescText">Kolor: czarny</p>
+      <p class="subpageMobileProductCard__categoryShortDescText">Dostępność: na zamówienie</p>
+    </div>
+  </section>
+  <section class="subpageMobileProductCard__headings">
+    <div class="subpageMobileProductCard__headingsContainer">
+      <h1 class="subpageMobileProductCard__headingsName">Opis</h1>
+    </div>
+  </section>
+  <section class="subpageMobileProductCard__productDescriptionContainer">
+    <p class="subpageMobileProductCard__productDescriptionText">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestias illo dolorum suscipit quidem voluptatibus
+      porro? Ducimus voluptas suscipit praesentium ratione incidunt, deleniti tempore quae, culpa dignissimos minima,
+      obcaecati nulla.
+    </p>
+    <p class="subpageMobileProductCard__productDescriptionText">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestias illo dolorum suscipit quidem voluptatibus
+      porro? Ducimus voluptas suscipit praesentium ratione incidunt, deleniti tempore quae, culpa dignissimos minima,
+      obcaecati nulla.
+    </p>
+    <p class="subpageMobileProductCard__productDescriptionText">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestias illo dolorum suscipit quidem voluptatibus
+      porro? Ducimus voluptas suscipit praesentium ratione incidunt, deleniti tempore quae, culpa dignissimos minima,
+      obcaecati nulla.
+    </p>
+    <p class="subpageMobileProductCard__productDescriptionText">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestias illo dolorum suscipit quidem voluptatibus
+      porro? Ducimus voluptas suscipit praesentium ratione incidunt, deleniti tempore quae, culpa dignissimos minima,
+      obcaecati nulla.
+    </p>
+  </section>
+  <section class="subpageMobileProductCard__RecommendedHeadingsContainer">
+    <div class="subpageMobileProductCard__RecommendedHeadingsTitle">
+      <h2 class="subpageMobileproductCard__RecommendedHeadingsText">
+        Polecane
+        <span class="subpageMobileProductCard__RecommendedHeadingsLighter">produkty</span>
+      </h2>
+    </div>
+  </section>
+  <section class="subpageMobileProductCard__productsRecommended">
+    <figure class="subpageMobileProductCard__productPhotoContainer">
+      <a href="../productCard/productCard.html">
+        <img class="subpageMobileProductCard__productPhoto" src="https://via.placeholder.com/345" alt="Photo #1">
+      </a>
       <div class="subpageMobileProductCard__productTitle">
         <h2 class="subpageMobileProductCard__productText">Kokardka usztywniana</h2>
-        <h2 class="subpageMobileProductCard__productPrice">30,00 zł</h2>
+        <h3 class="subpageMobileProductCard__productPrice">30,00 zł</h3>
       </div>
-      <div class="subpageMobileProductCard__category">
-          <a href="/Bows/subpages/productList/productListBows.css" class="subpageMobileProductCard__categoryText">Kategoria: Kokardki</a>
-      </div>
-      <div class="subpageMobileProductCard__categoryShortDesc">
-          <p class="subpageMobileProductCard__categoryShortDescText">Usztywniana kokardka ozdobiona kryształkami.</p>
-          <p class="subpageMobileProductCard__categoryShortDescText">Kolor: czarny</p>
-          <p class="subpageMobileProductCard__categoryShortDescText">Dostępność: na zamówienie</p>
-        </div>
-    </section>
-    <section class="subpageMobileProductCard__headings">
-        <div class="subpageMobileProductCard__headingsContainer">
-            <h1 class="subpageMobileProductCard__headingsName">Opis</h1>
-        </div>
-    </section>
-    <section class="subpageMobileProductCard__productDescriptionContainer">
-        <p class="subpageMobileProductCard__productDescriptionText">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestias illo dolorum suscipit quidem voluptatibus porro? Ducimus voluptas suscipit praesentium ratione incidunt, deleniti tempore quae, culpa dignissimos minima, obcaecati nulla.
-        </p>
-        <p class="subpageMobileProductCard__productDescriptionText">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestias illo dolorum suscipit quidem voluptatibus porro? Ducimus voluptas suscipit praesentium ratione incidunt, deleniti tempore quae, culpa dignissimos minima, obcaecati nulla.
-        </p>
-        <p class="subpageMobileProductCard__productDescriptionText">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestias illo dolorum suscipit quidem voluptatibus porro? Ducimus voluptas suscipit praesentium ratione incidunt, deleniti tempore quae, culpa dignissimos minima, obcaecati nulla.
-        </p>
-        <p class="subpageMobileProductCard__productDescriptionText">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestias illo dolorum suscipit quidem voluptatibus porro? Ducimus voluptas suscipit praesentium ratione incidunt, deleniti tempore quae, culpa dignissimos minima, obcaecati nulla.
-        </p>
-    </section>
-    <section class="subpageMobileProductCard__RecommendedHeadingsContainer">
-        <div class="subpageMobileProductCard__RecommendedHeadingsTitle">
-          <h2 class="subpageMobileproductCard__RecommendedHeadingsText">Polecane <span class="subpageMobileProductCard__RecommendedHeadingsLighter">produkty</span></h2>
-        </div>
-      </section>
-    <section class="subpageMobileProductCard__productsRecommended">
-        <figure class="subpageMobileProductCard__productPhotoContainer">
-          <a href="../productCard/productCard.html">  
-          <img 
-            class="subpageMobileProductCard__productPhoto"
-            src="https://via.placeholder.com/345"
-            alt="Photo #1"
-            >
-            </a>
+      <figure class="subpageMobileProductCard__productPhotoContainer">
+        <a href="../productCard/productCard.html">
+          <img class="subpageMobileProductCard__productPhoto" src="https://via.placeholder.com/345" alt="Photo #1">
+        </a>
         <div class="subpageMobileProductCard__productTitle">
-            <h2 class="subpageMobileProductCard__productText">Kokardka usztywniana</h2>
-            <h2 class="subpageMobileProductCard__productPrice">30,00 zł</h2>
+          <h2 class="subpageMobileProductCard__productText">Kokardka usztywniana</h2>
+          <h3 class="subpageMobileProductCard__productPrice">30,00 zł</h3>
         </div>
         <figure class="subpageMobileProductCard__productPhotoContainer">
-            <a href="../productCard/productCard.html">  
-            <img 
-              class="subpageMobileProductCard__productPhoto"
-              src="https://via.placeholder.com/345"
-              alt="Photo #1"
-              >
-              </a>
-          <div class="subpageMobileProductCard__productTitle">
-              <h2 class="subpageMobileProductCard__productText">Kokardka usztywniana</h2>
-              <h2 class="subpageMobileProductCard__productPrice">30,00 zł</h2>
-          </div>
-          <figure class="subpageMobileProductCard__productPhotoContainer">
-            <a href="../productCard/productCard.html">  
-            <img 
-              class="subpageMobileProductCard__productPhoto"
-              src="https://via.placeholder.com/345"
-              alt="Photo #1"
-              >
-              </a>
-          <div class="subpageMobileProductCard__productTitle">
-              <h2 class="subpageMobileProductCard__productText">Kokardka usztywniana</h2>
-              <h2 class="subpageMobileProductCard__productPrice">30,00 zł</h2>
-          </div>
-    </section>
-    <section class="mainMobile__footer">
-        <figure class="mainMobileFooter__logo">
-          <img class="mainMobileFooter__logoImg"
-          src="https://via.placeholder.com/200x141"
-          alt="Footer Logo"/>
-        </figure>
-        <div class="mainMobileFooter__contact">
-          <a href="" class="mainMobileFooter__contactFacebook">Facebook</a>
-          <a href="" class="mainMobileFooter__contactInstagram">Instagram</a>
-        </div>
-        <div class="mainMobileFooter__copyrights">
-          <a href="" class="mainMobileFooter__copyrightsName">
-            Bows
+          <a href="../productCard/productCard.html">
+            <img class="subpageMobileProductCard__productPhoto" src="https://via.placeholder.com/345" alt="Photo #1">
           </a>
-          <div class="mainMobileFooter__copyrightsContainer">
-            <div class="mainMobileFooter__copyrightsText">
-            All rights reserved
-            </div>
-            <div class="mainMobileFooter__copyrightsSign">
-            © 2021 Bows
-            </div>
+          <div class="subpageMobileProductCard__productTitle">
+            <h2 class="subpageMobileProductCard__productText">Kokardka usztywniana</h2>
+            <h3 class="subpageMobileProductCard__productPrice">30,00 zł</h3>
           </div>
+  </section>
+  <section class="mainMobile__footer">
+    <figure class="mainMobileFooter__logo">
+      <img class="mainMobileFooter__logoImg" src="https://via.placeholder.com/200x141" alt="Footer Logo" />
+    </figure>
+    <div class="mainMobileFooter__contact">
+      <a href="" class="mainMobileFooter__contactFacebook">Facebook</a>
+      <a href="" class="mainMobileFooter__contactInstagram">Instagram</a>
+    </div>
+    <div class="mainMobileFooter__copyrights">
+      <a href="" class="mainMobileFooter__copyrightsName">
+        Bows
+      </a>
+      <div class="mainMobileFooter__copyrightsContainer">
+        <div class="mainMobileFooter__copyrightsText">
+          All rights reserved
         </div>
+        <div class="mainMobileFooter__copyrightsSign">
+          © 2021 Bows
         </div>
-        <div class="mainMobileFooter__menu">
-          <a href="" class="mainMobileFooter__menuList">Zamówienie</a>
-          <a href="" class="mainMobileFooter__menuList">O nas</a>
-          <a href="" class="mainMobileFooter__menuList">Rozmiary</a>
-          <a href="" class="mainMobileFooter__menuList">Regulamin</a>
-        </div>
-      </section>
-    </body>
-    <script src="../../scripts/slider.js"></script> 
-  </html>
+      </div>
+    </div>
+    </div>
+    <div class="mainMobileFooter__menu">
+      <a href="" class="mainMobileFooter__menuList">Zamówienie</a>
+      <a href="" class="mainMobileFooter__menuList">O nas</a>
+      <a href="" class="mainMobileFooter__menuList">Rozmiary</a>
+      <a href="" class="mainMobileFooter__menuList">Regulamin</a>
+    </div>
+  </section>
+</body>
+<script src="../../scripts/slider.js"></script>
+
+</html>

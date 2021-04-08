@@ -7,6 +7,8 @@
   --tertiary-color: #ded0f2;
   --quaternary-color: #f6f0ff;
   --font-color: #383d3d;
+  --secondary-font-color: #808080;
+  --footer-background-color: #000;
 
   --main-font: "Noto Serif", serif;
   --secondary-font: "Niconne", cursive;
@@ -38,6 +40,7 @@ body {
   padding-left: 20px;
   font-family: var(--main-font);
   position: fixed;
+  z-index: 100;
 }
 
 .mainHeader__logoText {
@@ -185,7 +188,7 @@ body {
 .mainMobileSlider__container {
   display: none;
   justify-content: center;
-  margin: 20px 20px 0 20px;
+  margin: 20px 20px 0;
   overflow: hidden;
   position: relative;
   min-width: calc(100% - 40px);
@@ -256,10 +259,10 @@ body {
   background-color: var(--primary-color);
 }
 
-/*main mobile newsletter */
+/* Main mobile newsletter */
 
 .mainNewsletterMobile {
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -268,7 +271,7 @@ body {
 }
 
 .mainNewsletterMobile__top {
-  padding: 10px 0 0 0;
+  padding: 10px 0 0;
   font-size: 25px;
   font-weight: normal;
 }
@@ -276,7 +279,7 @@ body {
 .mainNewsletterMobile__text {
   margin-bottom: 10px;
   font-size: 20px;
-  color: grey;
+  color: var(--secondary-font-color);
 }
 
 .mainNewsletterMobile__topBolder {
@@ -286,7 +289,7 @@ body {
 .mainNewsletterMobile__social {
   text-decoration: none;
   cursor: pointer;
-  color: grey;
+  color: var(--secondary-font-color);
 }
 
 .mainNewsletterMobile__social:hover {
@@ -334,27 +337,27 @@ body {
 /* Main mobile footer */
 
 .mainMobile__footer {
-  background: rgb(0, 0, 0);
+  background: var(--footer-background-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 20px;
+  padding: 20px;
   margin: 20px;
 }
 
 .mainMobileFooter__logo {
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
 }
 
 .mainMobileFooter__contactFacebook,
 .mainMobileFooter__contactInstagram {
-  color: grey;
+  color: var(--secondary-font-color);
   text-decoration: none;
 }
 
 .mainMobileFooter__copyrights {
-  color: grey;
+  color: var(--secondary-font-color);
   padding: 20px 10px;
   display: flex;
   flex-direction: row;
